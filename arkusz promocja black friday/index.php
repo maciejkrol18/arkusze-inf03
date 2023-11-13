@@ -15,7 +15,7 @@
             <h2>Taniej o 30%</h2>
             <ol type="a">
                 <?php
-                    $connection = mysqli_connect("localhost", "root", "", "sklep5bt29wrz");
+                    $connection = mysqli_connect("localhost", "root", "", "sklep");
                     $queryResult = mysqli_query($connection, 
                         "SELECT nazwa FROM towary WHERE promocja=1"
                     );
@@ -38,7 +38,7 @@
                 <div id="result">
                     <?php
                         if (isset($_GET["produkt"])) {
-                            $connection = mysqli_connect("localhost", "root", "", "sklep5bt29wrz");
+                            $connection = mysqli_connect("localhost", "root", "", "sklep");
                             $nazwa = $_GET["produkt"];
                             $queryResult = mysqli_query($connection, 
                                 "SELECT nazwa, cena FROM towary WHERE nazwa='$nazwa'"
