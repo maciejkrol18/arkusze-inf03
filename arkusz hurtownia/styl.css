@@ -1,0 +1,62 @@
+* {
+	font-family: "Georgia";
+	text-align: center;
+}
+
+header,
+footer {
+	background-color: #4ba3c7;
+	color: white;
+	height: 80px;
+	font-size: 120%;
+}
+
+main {
+	display: flex;
+}
+
+#left,
+#right {
+	background-color: #efefef;
+	height: 400px;
+	width: 25%;
+}
+
+#middle {
+	background-color: #90caf9;
+	height: 400px;
+	width: 50%;
+}
+
+form > * {
+	display: block;
+}
+
+button {
+	margin: 0 auto;
+}
+
+table {
+	margin-left: 10px;
+	width: 90%;
+	border: 1px solid #90caf9;
+}
+
+td {
+	padding: 5px;
+	border: 1px solid #90caf9;
+}
+
+tr:hover {
+	color: #90caf9;
+}
+
+input {
+	/* margin-top: 15px;
+  margin-bottom: 15px; */
+	margin: 15px 0;
+}
+
+h4 {
+	margin: 0;
+}

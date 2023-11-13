@@ -1,0 +1,61 @@
+* {
+    font-family: "Cambria";
+    text-align: center;
+}
+
+header, footer {
+    background-color: rgb(120,0,46);
+    color: white;
+    padding: 5px;
+    font-size: 150%;
+}
+
+nav {
+    background-color: rgb(173,20,87);
+    text-align: left;
+}
+
+main {
+    background-color: snow;
+    color: olivedrab;
+    width: 60%;
+    height: 322px;
+    text-align: left;
+}
+
+aside {
+    background-color: rgb(173,20,87);
+    width: 40%;
+    height: 322px;
+}
+
+.samochod {
+    margin: 40px;
+    padding: 10px;
+}
+
+.samochod:hover {
+    border: 1px dotted yellowgreen;
+}
+
+a {
+    padding: 0 50px;
+    color: yellowgreen;
+}
+
+table, td, th {
+    border: 1px solid olivedrab;
+}
+
+table {
+    width: 90%;
+}
+
+.blocks-wrapper {
+    display: flex;
+}
+
+form > * {
+    display: block;
+    text-align: left;
+}
